@@ -3,7 +3,7 @@
 ## Student Details
 
 - **Full Name:** `Heeya Patel`
-- **CCID:** `heey1`
+- **CCID:** `heeya1`
 
 ## References and Resources
 
