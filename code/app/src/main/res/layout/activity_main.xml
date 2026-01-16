@@ -7,10 +7,54 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-   <ListView
-       android:id="@+id/city_list"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent">
 
-   </ListView>
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-80dp"
+        android:layout_marginBottom="-40dp"
+        android:background="#ffb6c1"
+        android:hint="Type city to add"
+        android:inputType="text"
+        android:textSize="30dp"
+        android:translationX="170dp"
+        android:translationY="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/city_list"
+        app:layout_constraintStart_toEndOf="@+id/Add">
+
+    </EditText>
+
+
+
+    <ListView
+        android:id="@+id/city_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom= "true"
+        android:translationY="200dp"
+        >
+    </ListView>
+
+    <Button
+        android:id="@+id/Add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="304dp"
+        android:text="Add city"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="33dp"
+        android:text="Delete city"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Add" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
