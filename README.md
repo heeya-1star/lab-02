@@ -2,12 +2,13 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Heeya Patel`
+- **CCID:** `heey1`
 
 ## References and Resources
 
 List any resources used here, or simply put `N/A` if not applicable.
+https://www.geeksforgeeks.org/android/working-with-the-edittext-in-android/
 
 ## Verbal Collaboration
 
